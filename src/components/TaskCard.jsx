@@ -69,6 +69,7 @@ const TaskCard = ({ task, onEdit, onDelete }) => {
             onClick={() => onEdit(task)}
             className="btn-icon btn-edit"
             title="Edit Task"
+            disabled={task.status==='Done'}
           >
             ✏️
           </button>

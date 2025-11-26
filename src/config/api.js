@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base API URL - change this if your backend is on a different URL
-const API_URL = 'http://localhost:5001/api';
+const API_URL = 'https://euit-ms250701-backend.onrender.com/api';
 
 // Create axios instance with default config
 const api = axios.create({
